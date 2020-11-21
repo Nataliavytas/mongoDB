@@ -1,13 +1,3 @@
-TP final para mongodb
-
-pdf -> para ver la especificacion del proyecto click aqui (hacer archivo en caerpeta exterior con las consignas)
-
-Getting started 
-Prerequisites: 
--> Java 11 
--> Apache Maven 3.6.3
-
-
 # MongoDB final work 
 
  To see the requirements please click [here](./work-requirements.pdf)​.
