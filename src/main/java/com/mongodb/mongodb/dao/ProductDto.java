@@ -1,9 +1,5 @@
 package com.mongodb.mongodb.dao;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.index.IndexDirection;
-import org.springframework.data.mongodb.core.index.Indexed;
-
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
@@ -30,6 +26,9 @@ public class ProductDto {
         this.price = price;
     }
 
+    //needed for jackson to deserialize
+    public ProductDto(){
+    }
 
     public String getName() {
         return name;
